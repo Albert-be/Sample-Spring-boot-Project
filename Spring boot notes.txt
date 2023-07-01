@@ -1,0 +1,19 @@
+@SpringBootApplication::::it is combination of all 3 annotations, instead of using all these three application we can use this single annotation.
+   Thats why when ever we create spring application by default spring will add this annotations
+
+- it is combination of @SpringBootConfiguration, + @EnableAutoConfiguration, + @ComponentScan
+- @SpringBootConfiguration internally uses @configuration.
+
+ @configuration Uses:::it is used to provide the configuration or classes as java based configuration.
+
+-There are three types of configuration we can do in spring based application
+1) xml based configuration
+2) java based configuration
+3) Annotation Based configuration
+
+- if we want to use java based configuration we will use @configuration.
+
+@EnableAutoConfiguration :::::  it is basecally used to enabled the auotConfiguration calsses for our spring boot application. 
+ it enables dispatcherServlet auotConfiguration Class
+ 
+@ComponentScan ::: it is use to scan the spring component which is present in another packages. means base packages or sub packeages for the spring component.
